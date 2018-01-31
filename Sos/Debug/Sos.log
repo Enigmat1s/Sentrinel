@@ -1,0 +1,2 @@
+﻿  main.cpp
+i:\repos\sos\sos\main.cpp(1): fatal error C1083: Не удается открыть файл включение: opencv2\opencv.hpp: No such file or directory,
