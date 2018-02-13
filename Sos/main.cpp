@@ -38,7 +38,7 @@ int main(int argc, const char** argv)
 		std::vector<Rect> faces;
 
 		//find and store faces
-		face_cascade.detectMultiScale(grayframe, faces, 1.1, 3, CV_HAAR_FIND_BIGGEST_OBJECT|CV_HAAR_SCALE_IMAGE, Size(30,30));
+		face_cascade.detectMultiScale(grayframe, faces, 1.1, 3, CV_HAAR_FIND_BIGGEST_OBJECT|CV_HAAR_SCALE_IMAGE, Size(30,30));//why tf is this not working
 
 		//draw rect on faces (orig frame)
 		for (int i = 0; i < faces.size(); i++) {
